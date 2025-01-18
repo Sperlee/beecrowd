@@ -28,6 +28,7 @@ int main(){
     Dados temp;
     for(int i = 0;i < NUM_PESSOAS-1;i++){
         for(int j = 0;j < NUM_PESSOAS-i-1;j++){
+            // fun
             if(strcmp(pessoas[j].nome, pessoas[j+1].nome) > 0){
                 temp = pessoas[j];
                 pessoas[j] = pessoas[j+1];
